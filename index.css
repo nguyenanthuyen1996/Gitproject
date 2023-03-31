@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+ }
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background: black;
+}
+header input{
+    float: right;
+    background: black;
+}
+header a{
+    color: white;
+}
+.header1{
+    background: orangered;
+}
+.topnav{
+    overflow: hidden;
+    background: red;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:rebeccapurple;
+}
+.column{
+    float: left;
+    width: 40%;
+}
